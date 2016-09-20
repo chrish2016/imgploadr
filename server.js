@@ -7,7 +7,7 @@ app.set('views', __dirname + '/views');
 app = config(app);
 
 // mongoose.connect('mongodb://localhost/imgPloadr');
-mongoose.connect('mongodb://chris_hamilton11@yahoo.com:chamil3126@candidate.33.mongolayer.com:11451,candidate.32.mongolayer.com:11135/app56857686');
+mongoose.connect('mongodb://chris_hamilton11@yahoo.com:chamil3126@ds035776.mlab.com:35776/heroku_m8dkhpqc');
 mongoose.connection.on('open', function() {
     console.log('Mongoose connected.');
 });
