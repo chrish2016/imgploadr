@@ -6,8 +6,8 @@ app.set('port', process.env.PORT || 3300);
 app.set('views', __dirname + '/views');
 app = config(app);
 
-// mongoose.connect('mongodb://localhost/imgPloadr');
-mongoose.connect('mongodb://chris_hamilton11@yahoo.com:chamil3126@ds035776.mlab.com:35776/heroku_m8dkhpqc');
+mongoose.connect('mongodb://localhost/imgPloadr');
+// mongoose.connect('mongodb://chris_hamilton11@yahoo.com:chamil3126@ds035776.mlab.com:35776/heroku_m8dkhpqc');
 mongoose.connection.on('open', function() {
     console.log('Mongoose connected.');
 });
